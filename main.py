@@ -14,13 +14,13 @@ class Sqlsetting:
 
 
 @eel.expose
-def register():
-    pass
+def register() -> str:
+    return "True"
 
 
 @eel.expose
-def login():
-    pass
+def login() -> str:
+    return "True"
 
 
 eel.init(f"{os.path.dirname(os.path.realpath(__file__))}/web")
